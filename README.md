@@ -9,7 +9,7 @@ AndroidKeyStore主要是用来加密一些私密信息用的，好像暂时未�
 所以可以把想存储的信息当成alias存入KeyStore<br>
 要取出的时候，对KeyStore的alias进行遍历，根据条件找到要取出的alias即可<br>
 
-#### 测试的时候发现目前这种KeyStore存储，无法做到像存sd卡那样持久，即应用卸载重装后，存储的信息还在<br>
+#### 测试的时候发现目前这种KeyStore存储，无法做到像存sd卡那样持久，即应用卸载重装后，存储的信息还在，后续有时间会再研究完善<br>
 
 ## 参考:<br>
 [Android Keystore加解密以及遇到的坑](https://www.jianshu.com/p/06775ddf435f)<br>
